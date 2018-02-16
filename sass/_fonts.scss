@@ -1,0 +1,16 @@
+@import "bourbon/bourbon";
+
+@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Regular", $file-formats: ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Bold", $weight: bold, $file-formats: ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Light", $weight: 300, $file-formats: ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-BoldItalic", $style: italic, $weight: bold, $file-formats: ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Italic", $style: italic, $weight: normal, $file-formats: ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-ExtraBold", $style: normal, $weight: 900, $file-formats: ttf);
+
+@include font-face("Avenir", "../fonts/Avenir/AvenirNextCyr-Regular", $file-formats: ttf);
+@include font-face("Avenir", "../fonts/Avenir/AvenirNextCyr-Bold", $weight: bold, $file-formats: ttf);
+@include font-face("Avenir", "../fonts/Avenir/AvenirNextCyr-Medium", $weight: 500, $file-formats: ttf);
+
+@include font-face("Raleway", "../fonts/Raleway/Raleway-Regular", $file-formats: ttf);
+@include font-face("Raleway", "../fonts/Raleway/Raleway-SemiBold", $weight: 500, $file-formats: ttf);

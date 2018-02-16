@@ -1,0 +1,16 @@
+.tingle-demo {
+  display: none;
+}
+
+.modal-video {
+  display: block;
+  margin: 0 auto;
+}
+
+.tingle-content-wrapper {
+  padding: 0 10px;
+}
+
+.tingle-enabled .tingle-content-wrapper {
+  filter: blur(3px);
+}
